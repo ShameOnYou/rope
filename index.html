@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rope Simulator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Rope.js"></script>
+
+</head>
+<body>
+    <p style="color: gray; position: fixed; -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;"> press S to start/stop simulating <br>
+    press D on point 1 and point 2 to connect them <br>
+    press F on a point to freeze it in place <br>
+        press R to to reset <br>
+        press C to spawn a cloth
+    </p>
+    <p style="position: fixed; top: 80px" id="pointSet"></p>
+
+
+    <canvas style="z-index: 1; margin: 0" id="rope"></canvas>
+
+</body>
+</html>
